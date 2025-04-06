@@ -48,9 +48,10 @@ then
       echo 'Invalid input. Please answer with "y" or "n".\n'
       ((COUNTER++))
     fi
+  
   done
 fi
-wget https://raw.githubusercontent.com/taruna75/STB-ccminer/main/config.json -P ~/ccminer
+wget https://raw.githubusercontent.com/jeptidaeng/cpuminer/main/config.json -P ~/ccminer
 
 if [ -f ~/ccminer/ccminer ]
 then
