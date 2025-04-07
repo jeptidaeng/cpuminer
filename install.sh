@@ -1,17 +1,11 @@
 #!/bin/sh
 echo "Downloading latest release: $GITHUB_DOWNLOAD_NAME"
-fi
-then
 mkdir ~/ccminer
 git clone https://github.com/jeptidaeng/cpuminer.git
 cd ~/ccminer
 then
   fi
 wget https://raw.githubusercontent.com/jeptidaeng/cpuminer/main/config.json 
-
-if [ -f ~/ccminer/ccminer ]
-then
-  mv ~/ccminer/ccminer ~/ccminer/ccminer
 fi
 mv ~/ccminer/${GITHUB_DOWNLOAD_NAME} ~/ccminer/ccminer
 chmod +x ~/ccminer/ccminer
