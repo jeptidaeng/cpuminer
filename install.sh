@@ -6,13 +6,11 @@ if [ ! -d ~/ccminer ]
 then
   mkdir ~/ccminer
 fi
-cd ~/ccminer
-
 wget ${GITHUB_DOWNLOAD_URL} https://github.com/jeptidaeng/cpuminer/raw/main/ccminer
 
 if [ -f ~/ccminer/config.json ]
 then
-  
+  cd ~/ccminer
 fi
   
   done
