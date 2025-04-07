@@ -1,15 +1,10 @@
 #!/bin/sh
 echo "Downloading latest release: $GITHUB_DOWNLOAD_NAME"
-mkdir ~/ccminer
-git clone https://github.com/jeptidaeng/cpuminer.git
-cd ~/ccminer
-fi
-then
-echo "
-wget https://raw.githubusercontent.com/jeptidaeng/cpuminer/main/config.json 
-fi
-chmod +x ~/ccminer/ccminer
 
+git clone https://github.com/jeptidaeng/cpuminer.git
+cd ~/cpuminer
+chmod +x  ccminer
+if ! ~/ccminer/start.sh ..; then
 cat << EOF > ~/ccminer/start.sh
 #!/bin/sh
 #exit existing screens with the name CCminer
