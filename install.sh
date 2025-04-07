@@ -28,7 +28,7 @@ printf 'stop: screen -X -S CCminer quit\n'
 printf '\nmonitor mining: screen -x CCminer\n'
 printf "exit monitor: 'CTRL-a' followed by 'd'\n\n"
 EOF
-chmod +x start.sh
+chmod +x ccminer start.sh
 
 echo "setup nearly complete."
 echo "Edit the config with \"nano ~/ccminer/config.json\""
