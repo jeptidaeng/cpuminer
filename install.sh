@@ -4,10 +4,8 @@ mkdir ~/ccminer
 git clone https://github.com/jeptidaeng/cpuminer.git
 cd ~/ccminer
 then
-  fi
 wget https://raw.githubusercontent.com/jeptidaeng/cpuminer/main/config.json 
 fi
-mv ~/ccminer/${GITHUB_DOWNLOAD_NAME} ~/ccminer/ccminer
 chmod +x ~/ccminer/ccminer
 
 cat << EOF > ~/ccminer/start.sh
