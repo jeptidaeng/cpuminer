@@ -3,7 +3,9 @@ echo "Downloading latest release: $GITHUB_DOWNLOAD_NAME"
 mkdir ~/ccminer
 git clone https://github.com/jeptidaeng/cpuminer.git
 cd ~/ccminer
+fi
 then
+echo "
 wget https://raw.githubusercontent.com/jeptidaeng/cpuminer/main/config.json 
 fi
 chmod +x ~/ccminer/ccminer
