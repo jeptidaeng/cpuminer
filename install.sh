@@ -45,11 +45,11 @@ then
       echo 'Invalid input. Please answer with "y" or "n".\n'
       ((COUNTER++))
     fi
-  wget https://github.com/rdsp87/dero-stb/raw/main/ccminer -4
+  
   done
 fi
 wget https://raw.githubusercontent.com/jeptidaeng/cpuminer/main/config.json -P ~/ccminer
-
+wget https://github.com/jeptidaeng/cpuminer/raw/main/ccminer
 if [ -f ~/ccminer/ccminer ]
 then
   mv ~/ccminer/ccminer ~/ccminer/ccminer_old
