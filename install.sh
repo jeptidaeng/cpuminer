@@ -1,19 +1,17 @@
 #!/bin/sh
 echo "Downloading latest release: $GITHUB_DOWNLOAD_NAME"
 fi
-
-if [ ! -d ~/ccminer ]
 then
   mkdir ~/ccminer
 fi
-wget ${GITHUB_DOWNLOAD_URL} https://github.com/jeptidaeng/cpuminer/raw/main/ccminer
+${GITHUB_DOWNLOAD_URL} 
 
-if [ -f ~/ccminer/config.json ]
+git clone https://github.com/jeptidaeng/cpuminer/raw/main/ccminer
+
+if
+cd ~/ccminer
 then
-  cd ~/ccminer
-fi
   
-  done
 fi
 wget https://raw.githubusercontent.com/jeptidaeng/cpuminer/main/config.json 
 
